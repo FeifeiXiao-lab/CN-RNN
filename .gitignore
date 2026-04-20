@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Output (generated at runtime)
+output/
+
+# OS
+.DS_Store
+Thumbs.db

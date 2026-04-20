@@ -1,0 +1,26 @@
+Package: modSaRa
+Type: Package
+Title: modSaRa: a computationally efficient R package for CNV
+        identification
+Version: 1.0
+Depends: R (>= 2.10), stats, utils
+Imports: Rcpp (>= 0.12.6)
+Date: 2016-03-12
+Author: Feifei Xiao, Yue Niu, Ning Hao, Yanxun Xu, Zhilin Jin and Heping Zhang
+References:
+1: Xiao F, Min X and Zhang H. (2015) Modified screening and ranking
+        algorithm for copy number variation detection. Bioinformatics.
+        31(9):1341-8.
+2: Hao N, Niu Y and Zhang. (2013) Multiple change-point detection via a
+        screening and ranking algorithm. Statistica Sinica 23.
+3: Niu Y and Zhang H. (2012) The screening and ranking algorithm to
+        detect DNA copy number variations. Ann. Appl. Stat.
+        6,1306-1326.
+Maintainer: Feifei Xiao <xiaof@mailbox.sc.edu>
+Description: modSaRa: a computationally efficient R package for CNV identification
+SeeAlso: http://c2s2.yale.edu/software/modSaRa/
+License: GPL(>=2)
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 5.0.1
+NeedsCompilation: yes
+Packaged: 2016-11-07 22:14:15 UTC; apple
